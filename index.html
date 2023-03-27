@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>lab 1</title>
+  <style>
+		h1 {
+			text-align: center;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="radio"] {
+			margin-right: 5px;
+		}
+		button {
+			display: block;
+			margin: 20px auto;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Тест на определение направления в вузе</h1>
+	<form id="test-form">
+		<label>
+			<strong>1. Какая тематика задач Вам интересна?</strong>
+			<br>
+			<input type="radio" name="q1" value="1">
+			Программирование задач общего назначения
+			<br>
+			<input type="radio" name="q1" value="2">
+			Программирование задач на математическом и естественнонаучном уровне
+			<br>
+			<input type="radio" name="q1" value="3">
+			Программирование бизнес-задач
+		</label>
+		<label>
+			<strong>2. Какая тематика предметов Вам ближе?</strong>
+			<br>
+			<input type="radio" name="q2" value="1">
+			Теоретические предметы: математика, физика, информатика
+			<br>
+			<input type="radio" name="q2" value="2">
+			Предметы, связанные с базами данных, инженерией ПО
+			<br>
+			<input type="radio" name="q2" value="3">
+			Предметы, связанные с экономикой и менеджментом
+		</label>
+		<label>
+			<strong>3. Какой тип задач Вы предпочитаете решать?</strong>
+			<br>
+			<input type="radio" name="q3" value="1">
+			Анализ данных и создание информационных систем
+			<br>
+			<input type="radio" name="q3" value="2">
+			Разработка алгоритмов и программного обеспечения
+			<br>
+			<input type="radio" name="q3" value="3">
+			Проектирование и внедрение ИТ-систем
+		</label>
+		<label>
+			<strong>4. Какой тип задач Вы предпочитаете решать?</strong>
+			<br>
+			<input type="radio" name="q4" value="1">
+			Создание и разработка сайтов и веб-приложений
+      <br>
+			<input type="radio" name="q4" value="2">
+			Разработка системного программного обеспечения
+			<br>
+			<input type="radio" name="q4" value="3">
+			Разработка мобильных приложений
+		</label>
+		<label>
+			<strong>5. Какие задачи Вас больше всего интересуют?</strong>
+			<br>
+			<input type="radio" name="q5" value="1">
+			Обработка и анализ больших данных
+			<br>
+			<input type="radio" name="q5" value="2">
+			Создание и работа с базами данных
+			<br>
+			<input type="radio" name="q5" value="3">
+			Работа с графикой и мультимедиа
+		</label>
+		<label>
+			<strong>6. Какой тип задач Вы предпочитаете решать?</strong>
+			<br>
+			<input type="radio" name="q6" value="1">
+			Разработка программного обеспечения для управления бизнес-процессами
+			<br>
+			<input type="radio" name="q6" value="2">
+			Разработка систем управления базами данных и хранилищами данных
+			<br>
+			<input type="radio" name="q6" value="3">
+			Разработка приложений для автоматизации бизнес-процессов
+		</label>
+		<label>
+			<strong>7. Какие задачи Вас больше всего интересуют?</strong>
+			<br>
+			<input type="radio" name="q7" value="1">
+			Разработка программного обеспечения для автоматизации бизнес-процессов
+			<br>
+			<input type="radio" name="q7" value="2">
+			Разработка высоконагруженных систем и сервисов
+			<br>
+			<input type="radio" name="q7" value="3">
+			Разработка программного обеспечения для решения научных задач
+		</label>
+		<button type="submit">Узнать результат</button>
+	</form>
+	<div class="result"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
